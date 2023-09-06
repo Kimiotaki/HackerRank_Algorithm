@@ -30,6 +30,9 @@ public class Record_breaking {
 				continue;
 			}
 		}
+		List<Integer> fin= new ArrayList<>();
+		fin.add(count_max);
+		fin.add(count_min);
 		System.out.println(count_max+" "+count_min);
 	}
 
